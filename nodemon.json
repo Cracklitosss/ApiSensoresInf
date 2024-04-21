@@ -1,0 +1,10 @@
+{
+    "watch": ["src"], 
+    "ext": "ts",      
+    "ignore": ["*.test.ts", "*.spec.ts", "node_modules/"], 
+    "execMap": {
+      "ts": "node -r ts-node/register" 
+    },
+    "exec": "ts-node ./src/index.ts"
+  }
+  
